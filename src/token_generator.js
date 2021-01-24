@@ -7,9 +7,9 @@ function tokenGenerator(identity, room) {
   // Create an access token which we will sign and return to the client,
   // containing the grant we just created
   const token = new AccessToken(
-    process.env.TWILIO_ACCOUNT_SID,
-    process.env.TWILIO_API_KEY,
-    process.env.TWILIO_API_SECRET
+    'ACa3fccdfe1b155379db9ed5bcc507eb69',
+    'SKdda5984070c63e1947dccd82fa5c0f38',
+    'y75lZlDYXNpZbI0BWUvbNKfAbzVuakna'
   );
 
   // Assign identity to the token
